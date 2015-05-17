@@ -304,7 +304,7 @@ class FireGento_DynamicCategory_Model_Rule_Condition_Product
      */
     public function getValueElementType()
     {
-        $selectAttributes = array('attribute_set_id', 'type_id',,'is_specialprice','is_newproduct');
+        $selectAttributes = array('attribute_set_id', 'type_id','is_specialprice','is_newproduct');
         if (in_array($this->getAttribute(), $selectAttributes)) {
             return 'select';
         }
