@@ -33,7 +33,7 @@ class FireGento_DynamicCategory_Model_Rule_Condition_Combine
      * @var array
      */
     protected $_customFilterAttributes = array(
-        'type_id', 'created_at', 'updated_at'
+        'type_id', 'created_at', 'updated_at', 'is_specialprice', 'is_newproduct' 
     );
 
     /**
